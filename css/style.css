@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Montserrat:wght@400;900&family=Oswald:wght@300;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+body {
+  background-image: url(../images/retro-living-room-interior-design.jpg);
+  background-repeat: no-repeat;
+  /* height: 130vh;
+  width: 100vw; */
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+.logo img {
+  width: 150px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 15vh;
+  padding: 30px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+.list-item {
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 60px;
+  color: #fff;
+}
+.list-item-call_symb,
+.list-item-call {
+  list-style-type: none;
+  margin-right: 8px;
+  color: #fff;
+}
+
+.grow-list {
+  border-bottom: 1px solid #fff;
+}
+
+.up-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.up-section h1 {
+  padding: 130px 59px 30px 90px;
+  color: #fff;
+  width: 60%;
+  font-size: 56px;
+  font-weight: 600;
+}
+.card {
+  border: none;
+  height: 140px;
+  margin-right: 69px;
+  width: 320px;
+  position: relative;
+  margin-top: 50px;
+  background-color: rgba(200, 195, 195, 0.1);
+}
+
+.card img {
+  width: 22px;
+  border: 1px solid black;
+  padding: 7px 26px;
+  border-radius: 25px;
+  background-color: #fff;
+  position: absolute;
+  left: 15%;
+  margin-top: 10px;
+}
+.card p {
+  position: absolute;
+  top: 50%;
+  padding: 0px 30px;
+  color: #fff;
+}
+.card1-line {
+  border-right: 2px solid #fff;
+  height: 63px;
+  position: absolute;
+  left: 68%;
+  top: 100%;
+}
+.crad1-dot {
+  position: absolute;
+  top: 144%;
+  height: 22px;
+  width: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 64.5%;
+}
+
+/* buttom section */
+
+.buttom-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  width: 40%;
+  margin: 60px;
+}
+.btn-learn {
+  border: 2px solid #fff;
+  padding: 15px 35px;
+  font-size: 20px;
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+.card2 {
+  border: none;
+  height: 140px;
+  margin-right: 69px;
+  width: 320px;
+  position: relative;
+  margin-top: 50px;
+  background-color: rgba(187, 181, 181, 0.1);
+  margin-bottom: 100px;
+}
+
+.card2 img {
+  width: 22px;
+  border: 1px solid black;
+  padding: 7px 26px;
+  border-radius: 25px;
+  background-color: #fff;
+  position: absolute;
+  left: 15%;
+  margin-top: 10px;
+}
+.card2 p {
+  position: absolute;
+  top: 50%;
+  padding: 0px 30px;
+  color: #fff;
+}
+.card2-line {
+  border-bottom: 2px solid #fff;
+  height: 81px;
+  position: absolute;
+  top: 4%;
+  left: 100%;
+  width: 76px;
+}
+.crad2-cricle {
+  position: absolute;
+  top: 56%;
+  height: 22px;
+  width: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 122.5%;
+}
+
+@media screen and (max-width: 599px) {
+  .conatiner {
+    height: 100%;
+  }
+  .logo img {
+    width: 50%;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    padding-bottom: 8px;
+  }
+  .list {
+    flex-wrap: wrap;
+  }
+  .list-item {
+    margin: 4px;
+    text-align: center;
+    font-size: 11px;
+  }
+  .list-item-call_symb {
+    margin-top: 5px;
+    /* width: 10px; */
+  }
+  .list-item-call {
+    font-size: 11px;
+    margin-right: 4px;
+  }
+  .grow-list {
+    padding-bottom: 9px;
+  }
+  .up-section {
+    flex-wrap: wrap;
+  }
+  .up-section h1 {
+    padding: 40px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+  }
+  .card {
+    width: 70%;
+    position: relative;
+    margin: 10px 0px 0px 100px;
+  }
+  .card p {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .card1-line {
+    height: 40px;
+    left: 80%;
+  }
+  .crad1-dot {
+    top: 120%;
+    height: 18px;
+    width: 18px;
+    left: 76%;
+  }
+  .buttom-section {
+    flex-wrap: wrap-reverse;
+  }
+  .card2 {
+    width: 70%;
+    position: relative;
+    margin: 70px 0px 0px 0px;
+  }
+  .card2 p {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .card2-line {
+    height: 60px;
+    width: 40px;
+  }
+  .crad2-cricle {
+    position: absolute;
+    top: 41%;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 115%;
+  }
+  .btn {
+    margin: 90px;
+  }
+  .btn-learn {
+    padding: 10px 25px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
