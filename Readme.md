@@ -2,7 +2,7 @@
 
 _by Tasmiya 💗_
 
-### 🔗*Live Link* -: [ Interior-Design]()
+### 🔗*Live Link* -: [ Interior-Design](https://tasmiya-proj-10.netlify.app)
 
 ![Interior-Design](./10.png)
 
